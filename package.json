@@ -1,0 +1,21 @@
+{
+  "name": "parcel-boilerplate",
+  "version": "1.0.0",
+  "description": "A boilerplate repository for quickly getting started building vanilla HTML-CSS-JS websites.",
+  "main": "index.js",
+  "scripts": {
+    "start": "concurrently \"sleepms 2500 && opener http://localhost:1234\" \"parcel *.html\"",
+    "build": "parcel build *.html"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "parcel-bundler": "^1.12.4"
+  },
+  "devDependencies": {
+    "concurrently": "^5.2.0",
+    "opener": "^1.5.1",
+    "sleep-ms": "^2.0.1"
+  }
+}
