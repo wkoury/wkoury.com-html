@@ -7,7 +7,8 @@
     "start": "concurrently \"sleepms 2500 && opener http://localhost:1234\" \"parcel *.html\"",
     "build": "parcel build *.html",
     "predeploy": "npm run build",
-    "deploy": "git checkout -b gh-pages master"
+    "deploy": "git branch gh-pages master",
+    "postdeploy": "git push"
   },
   "keywords": [],
   "author": "",
