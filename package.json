@@ -8,7 +8,7 @@
     "build": "parcel build *.html",
     "predeploy": "npm run build",
     "deploy": "git checkout gh-pages && git merge master",
-    "postdeploy": "git push"
+    "postdeploy": "git push && git checkout master"
   },
   "keywords": [],
   "author": "",
