@@ -1,9 +1,17 @@
 .wkoury {
     max-width: 600px;
-    margin: 15px;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;
+    margin: 50px;
+    font-size: 1.5rem;
+    font-family: -apple-system, 'Helvetica Neue', sans-serif;
 }
 
 a, a:visited {
     color: purple;
+}
+
+@media (prefers-color-scheme: dark) {
+    body {
+        color: #d3d3d3;
+        background: #1b1b1b;
+    }
 }
