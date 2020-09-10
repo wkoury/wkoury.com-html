@@ -5,7 +5,7 @@
   transform: translate(-50%, -50%);
   -webkit-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
-  font-size: 1.5rem;
+  font-size: 1.5em;
   font-family: -apple-system, "Helvetica Neue", sans-serif;
 }
 
@@ -29,6 +29,6 @@ a:visited {
     transform: none;
     -webkit-transform: none;
     -ms-transform: none;
-    margin: 0px auto;
+    margin: 5px auto;
   }
 }
