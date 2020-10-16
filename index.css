@@ -9,17 +9,23 @@
   font-family: -apple-system, "Helvetica Neue", sans-serif;
 }
 
+html, body {
+  background: -webkit-linear-gradient(left, transparent 0%,#fff 50%,transparent 100%); /* Chrome10+, Safari5.1+ */
+  background: -moz-linear-gradient(left, transparent 0%,#fff 50%,transparent 100%);    /* FF3.6+ */
+  background: linear-gradient(to left, transparent 0%,#fff 50%,transparent 100%);      /* W3C */
+}
+
 a,
 a:visited {
   color: #266086;
 }
 
-@media (prefers-color-scheme: dark) {
+/* @media (prefers-color-scheme: dark) {
   body, html {
     color: #d3d3d3;
     background: #1b1b1b;
   }
-}
+} */
 
 @media only screen and (max-width: 600px) {
   .wkoury {
